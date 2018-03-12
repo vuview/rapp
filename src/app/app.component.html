@@ -3,7 +3,7 @@
 <div *ngFor = "let recipe of recipes" class="panel panel-default">
     <div class='panel panel-default' style='max-width: 500px'>
         <div style="float:right">
-            <img src="{{ recipe.cover_photo ? recipe.cover_photo : 'nada' }}" style="width:150px; height: 150px" />
+            <img src="{{ recipe.cover_photo ? recipe.cover_photo : './assets/empty_bowl.jpg' }}" style="width:150px; height: 150px" />
         </div>
         <div class='panel-heading'>
             <h3 class="panel-title">{{ recipe.title }}</h3>
