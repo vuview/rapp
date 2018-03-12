@@ -9,7 +9,6 @@ import { Recipe } from './model/recipe';
 
 export class AppComponent {
   recipes: Recipe[];
-
   constructor() {
     this.recipes = [
       new Recipe('Pho', 'Pho here is so delicious', null, null, null),
