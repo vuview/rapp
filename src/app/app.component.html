@@ -1,4 +1,4 @@
-<h1>These are our Recipes</h1>
+<h1>These are our Recipe</h1>
 
 <div *ngFor = "let recipe of recipes" class="panel panel-default recipe">
     <div class='panel-heading'>
@@ -9,6 +9,6 @@
                 <div class="cover-photo-holder">
                         <img src="{{ recipe.cover_photo ? recipe.cover_photo : './assets/empty_bowl.jpg' }}" />
                 </div>
-          <p><b>Description:</b> {{ recipe.description }}</p>
+          <p><b>Descriptions:</b> {{ recipe.description }}</p>
         </div>
 </div>    
